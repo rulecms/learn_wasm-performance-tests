@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "wasm": "cd wasm && /Users/vishalkumar/.cargo/bin/wasm-pack build --target web",
+    "wasm": "cd wasm && npx wasm-pack build --target web",
     "build:all": "npm run wasm && npm run build"
   },
   "dependencies": {
