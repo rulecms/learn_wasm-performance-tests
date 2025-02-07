@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import PerformanceTest from '@/components/PerformanceTest';
 import { isPrimeJS } from '@/lib/js-implementations';
-import init, { is_prime } from '../../../wasm/pkg/wasm_perf';
+import init, { is_prime } from '@/public/wasm/pkg/wasm_perf';
 
 export default function PrimePage() {
   const [wasmLoaded, setWasmLoaded] = useState(false);
