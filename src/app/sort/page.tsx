@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import PerformanceTest from '@/components/PerformanceTest';
 import { sortArrayJS } from '@/lib/js-implementations';
-import init, { sort_array } from '../../../wasm/pkg/wasm_perf';
+import init, { sort_array } from '@/public/wasm/pkg/wasm_perf';
 
 function generateRandomArray(size: number): Int32Array {
   const arr = new Int32Array(size);
