@@ -1,3 +1,20 @@
+# WASM Performance Tests
+
+Three different operations comparing computation time between JavaScript and WASM:
+
+1. Fibonacci
+2. Factorial
+3. Prime Check
+
+## Live Demo
+https://learn-wasm-performance-tests-2ybrsb95p.vercel.app/
+
+## How to run locally
+
+```bash
+npm run build:all
+```
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
