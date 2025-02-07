@@ -7,24 +7,24 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "wasm": "cd wasm && npx wasm-pack build --target web",
+    "wasm": "cd wasm && wasm-pack build --target web",
     "build:all": "npm run wasm && npm run build"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.6",
     "chart.js": "^4.4.1",
-    "react-chartjs-2": "^5.2.0"
+    "next": "15.1.6",
+    "react": "^19.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@wasm-tool/wasm-pack-plugin": "^1.7.0",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
-    "@eslint/eslintrc": "^3",
-    "wasm-pack": "^0.12.1"
+    "typescript": "^5"
   }
 }
