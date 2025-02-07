@@ -1,0 +1,15 @@
+{
+  "name": "wasm-perf",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "wasm_perf_bg.wasm",
+    "wasm_perf.js",
+    "wasm_perf.d.ts"
+  ],
+  "main": "wasm_perf.js",
+  "types": "wasm_perf.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
