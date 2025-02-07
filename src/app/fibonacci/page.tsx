@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import PerformanceTest from '@/components/PerformanceTest';
 import { fibonacciJS } from '@/lib/js-implementations';
-import init, { fibonacci } from '../../../wasm/pkg/wasm_perf';
+import init, { fibonacci } from '@/public/wasm/wasm_perf';
 
 export default function FibonacciPage() {
   const [wasmLoaded, setWasmLoaded] = useState(false);
